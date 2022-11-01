@@ -1,0 +1,14 @@
+#all {
+    border-radius: 2%;
+    border-width: 0.5rem;
+    /* padding-right: 70%; */
+}
+legend {
+    font-family:cursive;
+    color: rgb(0, 34, 255);
+    opacity: 70%;
+    -ms-grid-row-align: center;
+}
+.bdy {
+    background-color:#e9ebe9;
+}

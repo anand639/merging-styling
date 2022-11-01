@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Registration</title>
+    <link href="favicon.png">
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  
+</head>
+<body class="bdy">
+<center>
+    <center><h1><img src="favicon.png" height="50" width="50">Welcome To <i>In-der</i> the <abbr>Indian-Tinder</abbr><img src="smile.png" height="20"></h1></center>
+    <fieldset id="all">
+        <fieldset>
+            <legend><h5><i>Enter Your Personal Details</i></h5></legend>
+            <form>
+                Name:<br>
+                <input type="text" placeholder="Enter Your Name" required><br>
+                <br>
+                Email id:<br>
+                <input type="email" placeholder="Enter Your email" required>
+                <br><br>
+                Mobile Number:<br>
+                <input type="number" placeholder="Enter your mobile number" required>
+                <br><br>
+        
+                <!-- Select the value from the drop down list -->
+        
+                <label>Gender:<br>
+                    <select id="gender" name="gender" required>
+                        <option value="" selected="selected" disabled="disabled">-- select one --</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="PNTS">Prefer Not To Say</option>
+                    </select>
+                </label><br><br>
+                Date & Time of Proposed Outing:<br>
+                <input type="datetime-local" placeholder="Enter your mobile number" required>
+                <br><br>
+            </form>
+        </fieldset>
+            <fieldset>
+                <legend><h5><i>Check All That Apply To You</i></h5></legend>
+                <form>
+                <input type="checkbox">
+                <label> have tattoos and/or Piercing.</label><br>
+                <input type="checkbox">
+                <label>I am more than 2 years old than your daughter.</label><br>
+                <input type="checkbox">
+                <label>I own a panel/Ferrari.</label><br>
+                <input type="checkbox">
+                <label>I work Full-Time.</label><br>
+                <input type="checkbox">
+                <label>My parents are rich.</label>
+            </fieldset><br>
+                
+            <fieldset>
+                <legend><h5><i>Location of the date is:</i></h5></legend>
+                <form>
+                <input type="radio" id="loc1" name="location" value="public">
+                <label for="loc1">Public Place</label>
+                <input type="radio" id="loc2" name="location" value="private">
+                <label for="loc2">Private Place</label>
+                </form>
+            </fieldset><br>
+        
+            <fieldset>
+                <legend><h5><i> Select Your Highest Qualification:</i></h5></legend>
+                <label>Select Any One:<br>
+                        <select id="education" name="education">
+                            <option value="" selected="selected" disabled="disabled">-- select one --</option>
+                            <option value="No formal education">No formal education</option>
+                            <option value="Primary education">Primary education</option>
+                            <option value="Secondary education">Secondary education or high school</option>
+                            <option value="Senior Secondary education">Higher Secondary education or Intermediate</option>
+                            <option value="Bachelor's degree">Bachelor's degree</option>
+                            <option value="Master's degree">Master's degree</option>
+                            <option value="Doctorate or higher">Doctorate or higher</option>
+                        </select>
+                </label><br><br>
+            </fieldset>
+            <fieldset>
+                <legend><h5><i>Mandatory Questionnaire By the Legal Guardian of The Girl:</i></h5></legend>
+              <section>
+                <p>Why do you want to date my daughter? (Write in 50 Words)</p>
+                <textarea rows="4" cols="50" maxlength="200" placeholder="Write here...">
+                </textarea>
+            </fieldset><br>
+            <fieldset>
+                <legend><h5><i>Kindly Upload Your Bank-Statement so that Girl's Father Make Sure That You are a Genuine Person:</i></h5></legend>
+              <section>
+                <p>Last Three Months Bank-Statement(in pdf Form)</p>
+                <input type="file" required>
+                </textarea>
+            </fieldset><br>
+                </form>
+            <fieldset>
+                    <legend><h5><i>Point of Reference:</i></h5></legend>
+                  <section>
+                    <p>Name: Pradeep Kumar</p>
+                    <p>Email: pradeep.kumar@gmail.com</p>
+                    <p>contact: +91-9965452365</p>
+                    </textarea>
+            </fieldset>
+    </fieldset>
+    
+    
+    <button type="button" class="btn btn-outline-success">Submit</button>
+    <button type="button" class="btn btn-outline-danger">Reset</button>
+</center>
+<center>&#169; In-Der</center>
+        <center>&#174; Anand Srivastava</center>
+</body>
+</html>
